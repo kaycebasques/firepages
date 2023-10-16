@@ -4,5 +4,9 @@
   "private": true,
   "devDependencies": {
     "firebase-tools": "^12.7.0"
+  },
+  "scripts": {
+    "dev": "npx firebase emulators:start",
+    "deploy": "npx firebase deploy --only functions"
   }
 }
